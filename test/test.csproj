@@ -91,6 +91,7 @@
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="样本4.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
