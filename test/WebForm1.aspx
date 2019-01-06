@@ -57,7 +57,7 @@
                                 <span class="fa fa-bars"></span>
                             </button>
                             <a class="navbar-brand" href="index.html">
-                                <img id="logo-header" src="img/logo.png" alt="Logo" />
+                                <img id="logo-header" style="width:250px;height: auto;max-height: 400px;max-width: 400px; min-width:50px ;overflow:hidden; " src="img/GenguImg/GenguLogo.png" alt="Logo" />
                             </a>
                         </div>
 
@@ -84,17 +84,17 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="item active beactive">
-                            <img src="img/banner/slide-1.jpg" alt="...">
+                            <img src="img/GenguImg/Planet1920x900.jpg" alt="...">
                             <div class="carousel-caption">
                                 <h2>欢迎来到亘古科技首页</h2>
                                 <p>在这里，有我们最新的科技产品，与产品共同进步.</p>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="img/banner/slide-2.jpg" alt="...">
+                            <img src="img/GenguImg/NUIST.png" alt="...">
                             <div class="carousel-caption">
-                                <h2>最新产品</h2>
-                                <p>介绍在这里。。。。。。。。。。。。。。。。。。。。。。</p>
+                                <h2>公司简介</h2>
+                                <p class="text-left">&nbsp; &nbsp;&nbsp; &nbsp; 南京亘古科技有限公司成立于2018年，是一家专门从事气象探测仪器研发与气象信息服务的创新型企业，地处国家级转型升级和开放合作示范新区——南京江北新区，依托国家“双一流”建设高校南京信息工程大学的一流气象资源和高科技研究团队，致力于强对流和降水探测技术、雷电探测技术、云探测技术、气溶胶探测技术、大气成分探测技术以及大气与环境综合探测平台的开发与升级，自公司成立以来通过多种渠道引进各类创新型人才、不断吸收国内外的先进技术，发明了一系列气象探测新技术和新产品，为我国气象行业发展和气象服务市场化提供了技术支撑与需求服务，符合国家近年大力推进气象监测仪器国产化的政策趋势。</p>
                             </div>
                         </div>
                     </div>
@@ -107,15 +107,15 @@
 
             <section class="home-main-contant-style bg-white">
                 <div class="cd-home-title">
-                    <h2>From the blog</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h2>科研成果转化</h2>
+                    <p>公司成立以来通过引进和吸收国内外新技术，自主创新开发了一系列气象新技术和新产品.</p>
                 </div>
                 <div class="container">
                     <div id="js-grid-blog-posts" class="cbp">
                         <div class="cbp-item print motion">
                             <a href="blog-single-image.html" class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="img/portfolio/7.jpg" alt="">
+                                    <img src="img/GenguImg/Pro1.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignCenter">
@@ -126,17 +126,19 @@
                                 </div>
                             </a>
                             <div class="cbp-1-title-bg">
-                                <a href="blog-single-image.html"  class="cbp-l-grid-blog-title">标题</a>
+                                <a href="blog-single-image.html"  class="cbp-l-grid-blog-title">无人机高空气象探测系统</a>
+                                <!--
                                 <div class="cbp-l-grid-blog-date">时间</div>
                                 <div class="cbp-l-grid-blog-split">|</div>
+                                -->
                                 <a href="#" class="cbp-l-grid-blog-comments">发布日期</a>
-                                <div class="cbp-l-grid-blog-desc">简介.</div>
+                                <div class="cbp-l-grid-blog-desc">本系统通过多个无人机携带气象环境监测传感器，可以实现对边界层区域网的风速，风向，温度，湿度，压强，pm2.5进行探测</div>
                             </div>
                         </div>
                         <div class="cbp-item web-design logos">
                             <a href="blog-single-image.html" class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="img/portfolio/14.jpg" alt="">
+                                    <img src="img/GenguImg/Pro2.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignCenter">
@@ -147,17 +149,19 @@
                                 </div>
                             </a>
                             <div class="cbp-1-title-bg">
-                                <a href="blog-single-image.html"  class="cbp-l-grid-blog-title">标题</a>
+                                <a href="blog-single-image.html"  class="cbp-l-grid-blog-title">微型厘米波段降水探空监测仪</a>
+                                <!--
                                 <div class="cbp-l-grid-blog-date">时间</div>
                                 <div class="cbp-l-grid-blog-split">|</div>
+                                -->
                                 <a href="#" class="cbp-l-grid-blog-comments">发布日期</a>
-                                <div class="cbp-l-grid-blog-desc">简介.</div>
+                                <div class="cbp-l-grid-blog-desc">该仪器能够实时监测不同海拔高度的大气中降水粒子的大小、形状、谱分布等微观物理特性，为检测该地区降水时空分布的业务人员提供可靠的数据支撑</div>
                             </div>
                         </div>
                         <div class="cbp-item motion logos">
                             <a href="blog-single-image.html" class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="img/portfolio/15.jpg" alt="">
+                                    <img src="img/GenguImg/Pro3.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignCenter">
@@ -168,11 +172,13 @@
                                 </div>
                             </a>
                             <div class="cbp-1-title-bg">
-                                <a href="blog-single-image.html"  class="cbp-l-grid-blog-title">标题</a>
+                                <a href="blog-single-image.html"  class="cbp-l-grid-blog-title">冰雹自动监测装置</a>
+                                <!--
                                 <div class="cbp-l-grid-blog-date">时间</div>
                                 <div class="cbp-l-grid-blog-split">|</div>
+                                -->
                                 <a href="#" class="cbp-l-grid-blog-comments">发布日期</a>
-                                <div class="cbp-l-grid-blog-desc">简介.</div>
+                                <div class="cbp-l-grid-blog-desc">本系统可以对冰雹等恶劣天气进行实时监测和预警，提供实时冰雹单位面积单位时间内的平均体积和冰雹数，数据直观，并具有时效性</div>
                             </div>
                         </div>
                     </div>
@@ -267,6 +273,28 @@
                 </div>
             </section>     
 
+            <section class="home-main-contant-style bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 why-choose-img">
+                            <img class="img-responsive" src="img/imac2.png" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb30"></div>
+                            <h5>Atmospheric negative oxygen ion detecting device(2018)</h5>
+                            <h2 class="mb15"><strong>大气负氧离子探测装置</strong></h2>
+                            <p>
+                                本发明的目的是提供一种具有离子收集，电荷放大，模数转换，温度检测，湿度检测，LCD显示，数据处理功能的空气负氧离
+                                子检测装置。该装置对空气中的负氧离子浓度进行实时自动检测，以便于用户能够直观的观测到空气负氧离子浓度水平信息，
+                                从而为环境质量评估提供数据
+                            </p>
+                            <br>
+                            <a class="btn btn-product" href="#">详情查看</a>&nbsp;&nbsp;&nbsp;<a class="btn btn-product" href="#">立即购买</a>
+                        </div>
+                    </div>
+                </div>
+            </section>     
+
 
             <section class="home-main-contant-style parallax-block bg-white">
                 <div class="container">
@@ -284,7 +312,7 @@
                 </div>
             </section>
 
-
+            <!--
             <section class="main-contain">
                 <div class="container">
                     <ul class="row">
@@ -316,6 +344,7 @@
 
                 </div>
             </section>
+            -->
 
             <div class="cbp-l-slider-testimonials-wrap">
                 <div style="max-width: 980px; margin: 0 auto;">

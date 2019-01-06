@@ -114,6 +114,13 @@
     <Content Include="img\clients\clients02.png" />
     <Content Include="img\counter.jpg" />
     <Content Include="img\dark_wood.png" />
+    <Content Include="img\GenguImg\GenguLogo.png" />
+    <Content Include="img\GenguImg\NUIST.png" />
+    <Content Include="img\GenguImg\planet.jpg" />
+    <Content Include="img\GenguImg\Planet1920x900.jpg" />
+    <Content Include="img\GenguImg\Pro1.png" />
+    <Content Include="img\GenguImg\Pro2.png" />
+    <Content Include="img\GenguImg\Pro3.png" />
     <Content Include="img\imac2.png" />
     <Content Include="img\imac1.png" />
     <Content Include="img\logo.png" />
