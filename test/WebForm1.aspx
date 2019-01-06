@@ -87,7 +87,7 @@
                             <img src="img/banner/slide-1.jpg" alt="...">
                             <div class="carousel-caption">
                                 <h2>欢迎来到亘古科技首页</h2>
-                                <p>在这里，有我们最新的科技产品，与产品共同进步.</p>
+                                <p class="text-center;text-indent:50px">在这里，有我们最新的科技产品，与产品共同进步.</p>
                             </div>
                         </div>
                         <div class="item">
@@ -232,7 +232,7 @@
                             <div class="mb30"></div>
                             <h5>UAV high air image detection system based on Beidou positioning(2018)</h5>
                             <h2 class="mb15"><strong>基于北斗定位的无人机高空气象探测系统</strong></h2>
-                            <p>
+                            <p class="text-indent:50px">
                                 本设计将北斗定位技术结合探空气球、FPGA、射频电路技术、电磁散射理论、气溶胶物理学、大气探测技术等设计一个厘米波段
                                 降水探空监测仪，该仪器能够实时监测不同海拔高度的大气中降水粒子的大小、形状、谱分布等微观物理特性，为检测该地区降
                                 水时空分布的业务人员或者其他科研人员提供可靠的数据支撑，可推广应用至高校、气象局、环保局、海洋局、宇航局等科研院所。
@@ -325,7 +325,7 @@
                                 “让科技富有生命力”
                             </div>
                             <div class="cbp-l-grid-slider-testimonials-footer">
-                                亘古科技
+                                亘古信息科技
                             </div>
                         </div>
                         <div class="cbp-item web-design logos">
@@ -333,7 +333,7 @@
                                 “科技构建未来元素，让单调变为多彩，我们在行动”
                             </div>
                             <div class="cbp-l-grid-slider-testimonials-footer">
-                                亘古科技
+                                亘古信息科技
                             </div>
                         </div>
                         <div class="cbp-item graphic logos">
@@ -341,7 +341,7 @@
                                 “让自动化充实生活，在平凡世界里找宝物！”
                             </div>
                             <div class="cbp-l-grid-slider-testimonials-footer">
-                                亘古科技
+                                亘古信息科技
                             </div>
                         </div>
                     </div>
@@ -451,7 +451,7 @@
 
                     <div class="copyright">
                         <div class="text-center">
-                            <p>Copyright &copy; 2019.亘古科技有限公司 版权所有.</p>
+                            <p>Copyright &copy; 2019.亘古信息科技有限公司 版权所有.</p>
                         </div>
                     </div>
 
