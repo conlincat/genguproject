@@ -88,7 +88,87 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\cubeportfolio.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\footer-1.css" />
+    <Content Include="css\header-1.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\banner\arrow-left.png" />
+    <Content Include="img\banner\arrow-right.png" />
+    <Content Include="img\banner\slide-1.jpg" />
+    <Content Include="img\banner\slide-2.jpg" />
+    <Content Include="img\banner\slide-2.png" />
+    <Content Include="img\banner\slide-3.jpg" />
+    <Content Include="img\blog\1.jpg" />
+    <Content Include="img\blog\2.jpg" />
+    <Content Include="img\blog\3.jpg" />
+    <Content Include="img\breadcrumb.jpg" />
+    <Content Include="img\cbp-sprite.png" />
+    <Content Include="img\clients\clients01.png" />
+    <Content Include="img\clients\clients02.png" />
+    <Content Include="img\counter.jpg" />
+    <Content Include="img\dark_wood.png" />
+    <Content Include="img\imac2.png" />
+    <Content Include="img\imac1.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\portfolio\14.jpg" />
+    <Content Include="img\portfolio\15.jpg" />
+    <Content Include="img\portfolio\7.jpg" />
+    <Content Include="img\portfolio\m1.jpg" />
+    <Content Include="img\portfolio\m10.jpg" />
+    <Content Include="img\portfolio\m11.jpg" />
+    <Content Include="img\portfolio\m12.jpg" />
+    <Content Include="img\portfolio\m2.jpg" />
+    <Content Include="img\portfolio\m3.jpg" />
+    <Content Include="img\portfolio\m4.jpg" />
+    <Content Include="img\portfolio\m5.jpg" />
+    <Content Include="img\portfolio\m6.jpg" />
+    <Content Include="img\portfolio\m7.jpg" />
+    <Content Include="img\portfolio\m8.jpg" />
+    <Content Include="img\portfolio\m9.jpg" />
+    <Content Include="img\team1.jpg" />
+    <Content Include="img\team2.jpg" />
+    <Content Include="img\team3.jpg" />
+    <Content Include="img\team4.jpg" />
+    <Content Include="img\themeimage.jpg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\cubeportfolio\blog-grid-3col.js" />
+    <Content Include="js\cubeportfolio\portfolio-masonry-4col.js" />
+    <Content Include="js\cubeportfolio\team.js" />
+    <Content Include="js\cubeportfolio\testimonials.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\google-map.js" />
+    <Content Include="js\jquery.counterup.min.js" />
+    <Content Include="js\jquery.cubeportfolio.min.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\magnific-popup.min.js" />
+    <Content Include="js\navigation.js" />
+    <Content Include="js\waypoints.min.js" />
+    <Content Include="plugins\FlexSlider\jquery.flexslider-min.js" />
+    <Content Include="plugins\FlexSlider\jquery.flexslider.css" />
+    <Content Include="plugins\owl-carousel\AjaxLoader.gif" />
+    <Content Include="plugins\owl-carousel\grabbing.png" />
+    <Content Include="plugins\owl-carousel\owl.carousel.css" />
+    <Content Include="plugins\owl-carousel\owl.carousel.min.js" />
+    <Content Include="plugins\owl-carousel\owl.theme.css" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.actions.min.js" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.carousel.min.js" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.kenburn.min.js" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.layeranimation.min.js" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.migration.min.js" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.navigation.min.js" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.parallax.min.js" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.slideanims.min.js" />
+    <Content Include="plugins\revolution\revolution\js\extensions\revolution.extension.video.min.js" />
+    <Content Include="plugins\revolution\revolution\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="plugins\revolution\revolution\js\jquery.themepunch.tools.min.js" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="样本4.png" />
@@ -109,6 +189,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -121,6 +208,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="plugins\revolution\revolution\js\theme\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
