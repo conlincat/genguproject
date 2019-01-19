@@ -120,7 +120,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     line-height: 1.5em;
 }
-h1 { font-size: 30px; letter-spacing: 1px;}
+h1 { font-size: xx-large; 
+letter-spacing: 1px;
+}
 h2 { font-size: 24px; letter-spacing: 1px;}
 h3 { font-size: 22px; letter-spacing: 1px;}
 h4 { font-size: 18px; letter-spacing: 1px;}
@@ -486,8 +488,8 @@ ul.list-inline {
 }
 .cd-home-title h2 {
     font-family: raleway;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: xx-large;
+    font-weight: 700;
     margin-bottom:15px;
     text-transform: uppercase;
 }
@@ -664,7 +666,7 @@ ul.list-inline {
 }
 .carousel-caption > p {
     color: #fff;
-    font-size: 20px;
+    font-size: x-large;
     line-height: 2.500em;
     font-weight: 300;
     -webkit-transform: scale(1.2);

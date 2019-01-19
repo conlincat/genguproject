@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="test.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="test.WebForm1" %>
 
 <!DOCTYPE html>
 <!--[if !IE]><!--> <html lang="zh-cn"> <!--<![endif]-->
@@ -56,17 +56,17 @@
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="fa fa-bars"></span>
                             </button>
-                            <a class="navbar-brand" href="index.html">
-                                <img id="logo-header" style="width:250px;height: auto;max-height: 400px;max-width: 400px; min-width:50px ;overflow:hidden; " src="img/GenguImg/GenguLogo.png" alt="Logo" />
+                            <a class="navbar-brand" href="Index.aspx">
+                                <img id="logo-header" style="width:170px;height: auto;max-height: 400px;max-width: 400px; min-width:50px ;overflow:hidden; " src="img/GenguImg/LogoNGIST_v3.png" alt="Logo" />
                             </a>
                         </div>
 
                         
                         <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
                             <ul class="nav navbar-nav">
-								<li><a href="index.html">首页</a></li>
+								<li><a href="Index.aspx">首页</a></li>
                                 <li><a href="about-us.html">产品应用</a></li>
-								<li><a href="service.html">高校竞赛</a></li>
+								<li><a href="Honor.aspx">高校竞赛</a></li>
 								<li><a href="contact.html">关于我们</a></li>
 								<li><a href="login-register.html">登录/注册</a></li>
                             </ul>
@@ -86,15 +86,24 @@
                         <div class="item active beactive">
                             <img src="img/GenguImg/Planet1920x900.jpg" alt="...">
                             <div class="carousel-caption">
-                                <h2>欢迎来到亘古科技首页</h2>
-                                <p>在这里，有我们最新的科技产品，与产品共同进步.</p>
+                                <h2>欢迎来到亘古信息科技首页</h2>
+                                <p style="font-size:20px">在这里，有我们最新的科技产品，与时俱进，开拓创新</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="img/GenguImg/NUIST.png" alt="...">
                             <div class="carousel-caption" >
+                                <!--
                                 <h2>公司简介</h2>
-                                <p class="text-left" style="text-indent:2em">南京亘古科技有限公司成立于2018年，是一家专门从事气象探测仪器研发与气象信息服务的创新型企业，地处国家级转型升级和开放合作示范新区——南京江北新区，依托国家“双一流”建设高校南京信息工程大学的一流气象资源和高科技研究团队，致力于强对流和降水探测技术、雷电探测技术、云探测技术、气溶胶探测技术、大气成分探测技术以及大气与环境综合探测平台的开发与升级，自公司成立以来通过多种渠道引进各类创新型人才、不断吸收国内外的先进技术，发明了一系列气象探测新技术和新产品，为我国气象行业发展和气象服务市场化提供了技术支撑与需求服务，符合国家近年大力推进气象监测仪器国产化的政策趋势。</p>
+                                <p class="text-left" style="text-indent:2em">南京亘古科技有限公司成立于2018年，是一家专门从事气象探测仪
+                                    器研发与气象信息服务的创新型企业，地处国家级转型升级和开放合作示范新区——南京江北新区，依托国家“双
+                                    一流”建设高校南京信息工程大学的一流气象资源和高科技研究团队，致力于强对流和降水探测技术、雷电探测技
+                                    术、云探测技术、气溶胶探测技术、大气成分探测技术以及大气与环境综合探测平台的开发与升级，自公司成立以
+                                    来通过多种渠道引进各类创新型人才、不断吸收国内外的先进技术，发明了一系列气象探测新技术和新产品，为我
+                                    国气象行业发展和气象服务市场化提供了技术支撑与需求服务，符合国家近年大力推进气象监测仪器国产化的政策趋势。</p>
+                                    -->
+                                <h2>立足于高校，服务于社会</h2>
+                                <p style="font-size:20px">公司成立于2018年，是一家专门从事气象探测仪器研发与气象信息服务的创新型企业，地处国家级转型升级和开放合作示范新区——南京江北新区</p>
                             </div>
                         </div>
                     </div>
@@ -231,7 +240,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 welcome-img">
-                            <img class="img-responsive" src="img/imac1.png" alt="">
+                            <img class="img-responsive" src="img/GenguImg/imac1.png" alt="">
                         </div>
 
                         <div class="col-md-6">
@@ -255,7 +264,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 why-choose-img">
-                            <img class="img-responsive" src="img/imac2.png" alt="">
+                            <img class="img-responsive" src="img/GenguImg/imac2.png" alt="">
                         </div>
                         <div class="col-md-6">
                             <div class="mb30"></div>
@@ -277,7 +286,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 why-choose-img">
-                            <img class="img-responsive" src="img/imac2.png" alt="">
+                            <img class="img-responsive" src="img/GenguImg/imac4.png" alt="">
                         </div>
                         <div class="col-md-6">
                             <div class="mb30"></div>
@@ -293,7 +302,31 @@
                         </div>
                     </div>
                 </div>
-            </section>     
+            </section>
+            
+            <section class="home-main-contant-style">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 why-choose-img">
+                            <img class="img-responsive" src="img/GenguImg/imac3.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb30"></div>
+                            <h5>Micro-centimeter-band precipitation sounding monitor based on Beidou positioning(2018)</h5>
+                            <h2 class="mb15"><strong>基于北斗定位的微型厘米波段降水探空监测仪</strong></h2>
+                            <p>
+                                大气边界层的气象要素与人们的生活息息相关，通过对边界层的气象要素进行探测，人们可以准确判断实时的气象条件，为
+                                人工影响天气的作业以及气象环境的监测提供可靠的数据支持。本系统通过多个无人机携带气象环境监测传感器，可以实现
+                                对边界层区域网的风速，风向，温度，湿度，压强，pm2.5进行探测。携带的北斗模块和无线传输模块不仅可以实时把边界
+                                层的各气象要素发送的到地面接收端，而且可以利用北斗模块准确地反映经纬度以及各个点的气象要，绘制成网格图，这样
+                                可以直观地测量以及读取区域的各个气象要素
+                            </p>
+                            <br>
+                            <a class="btn btn-product" href="#">详情查看</a>&nbsp;&nbsp;&nbsp;<a class="btn btn-product" href="#">立即购买</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
             <section class="home-main-contant-style parallax-block bg-white">
@@ -354,7 +387,7 @@
                                 “让科技富有生命力”
                             </div>
                             <div class="cbp-l-grid-slider-testimonials-footer">
-                                亘古科技
+                                亘古信息科技
                             </div>
                         </div>
                         <div class="cbp-item web-design logos">
@@ -362,7 +395,7 @@
                                 “科技构建未来元素，让单调变为多彩，我们在行动”
                             </div>
                             <div class="cbp-l-grid-slider-testimonials-footer">
-                                亘古科技
+                                亘古信息科技
                             </div>
                         </div>
                         <div class="cbp-item graphic logos">
@@ -370,7 +403,7 @@
                                 “让自动化充实生活，在平凡世界里找宝物！”
                             </div>
                             <div class="cbp-l-grid-slider-testimonials-footer">
-                                亘古科技
+                                亘古信息科技
                             </div>
                         </div>
                     </div>
@@ -414,7 +447,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="widget">
                                 <h6 class="text-uppercase bottom-line">公司简介</h6>
-                                <div class="footer-logo mb15"><img src="img/logo.png" alt="Logo" class="img-responsive" /></div>
+                                <div class="footer-logo mb15"><img src="img/GenguImg/GenguLogo.png" alt="Logo" class="img-responsive" /></div>
                                 <p>公司成立于2018年，是一家专门从事气象探测仪器研发与气象信息服务的创新型企业，地处国家级转型升级和开放合作示范新区——南京江北新区.</p>
 
                                 <ul class="social-icons social-icons-simple">
@@ -444,21 +477,40 @@
                                 <h6 class="text-uppercase bottom-line">合作单位</h6>
                                 <ul class="recent-posts">
                                     <li>
+                                        <!--去掉了图片
                                         <div class="widget-posts-image">
                                             <a href="#"><img src="img/blog/1.jpg" alt=""></a>
                                         </div>
+                                        -->
                                         <div class="widget-posts-body">
-                                            <h6 class="widget-posts-title"><a href="#">南京信息工程大学</a></h6>
-                                            <div class="widget-posts-meta">time</div>
+                                            <h6 class="widget-posts-title"><a href="http://www.nuist.edu.cn">南京信息工程大学</a></h6>
+                                            <!--<div class="widget-posts-meta">time</div>-->
                                         </div>
                                     </li>
                                     <li>
+                                        <!--去掉了图片
                                         <div class="widget-posts-image">
                                             <a href="#"><img src="img/blog/2.jpg" alt=""></a>
                                         </div>
+                                        -->
                                         <div class="widget-posts-body">
                                             <h6 class="widget-posts-title"><a href="#">江苏省气象局</a></h6>
-                                            <div class="widget-posts-meta">time</div>
+                                            <!--<div class="widget-posts-meta">time</div>-->
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="widget-posts-body">
+                                            <h6 class="widget-posts-title"><a href="#">江苏省环保局</a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="widget-posts-body">
+                                            <h6 class="widget-posts-title"><a href="#">江苏省电力部门</a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="widget-posts-body">
+                                            <h6 class="widget-posts-title"><a href="#">江苏省电子公司</a></h6>
                                         </div>
                                     </li>
                                 </ul>
@@ -470,8 +522,9 @@
                                 <h6 class="text-uppercase bottom-line">联系我们</h6>
                                 <address>
                                     <p>地址：南京信息工程大学</p><br>
-                                    <p>公司电话：222448888</p>
-                                    <p>E-mail: <a href="mailto:evilrabbit520@gmail.com">evilrabbit520@gmail.com</a></p>
+                                    <p>公司电话：13814512847</p>
+                                    <p>E-mail: <a href="mailto:goldtigerwang@nuist.edu.cn">goldtigerwang@nuist.edu.cn</a></p>
+                                    <p>QQ:188108956</p>
                                 </address>
                             </div>
                         </div>
@@ -480,7 +533,7 @@
 
                     <div class="copyright">
                         <div class="text-center">
-                            <p>Copyright &copy; 2019.亘古科技有限公司 版权所有.</p>
+                            <p>Copyright &copy; 2019.亘古信息科技有限公司 版权所有.</p>
                         </div>
                     </div>
 
