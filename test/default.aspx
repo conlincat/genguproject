@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="test.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="test.WebForm1" %>
 
 <!DOCTYPE html>
 <!--[if !IE]><!--> <html lang="zh-cn"> <!--<![endif]-->
